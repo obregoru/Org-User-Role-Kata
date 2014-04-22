@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Organizations User Roles Kata challenge
 
-Things you may want to cover:
+- Rails 4.0 
+- Ruby 1.9.3p429
 
-* Ruby version
+This app demonstrates an rspec test for the Organizations - Users - Roles Kata challenge at http://www.adomokos.com/2012/10/the-organizations-users-roles-kata.html
 
-* System dependencies
+The tests demonstrate a functining inheritance security model that works even if a user role is not specified on a leaf level organization.  They also demonstrate that a user is NOT in other roles for a particular organization.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This test contains extensive test data to demonstrate the inheritance model at work.  Less data could have been used to simply demonstrate that the proper user role is processed, but it would not have shown inheritance at play in different scenarios.
