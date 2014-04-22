@@ -2,11 +2,11 @@
 
 Organizations User Roles Kata challenge
 
-- Rails 4.0 
+- Rails 4.0
 - Ruby 1.9.3p429
 
-This app demonstrates an rspec test for the Organizations - Users - Roles Kata challenge at http://www.adomokos.com/2012/10/the-organizations-users-roles-kata.html
+This app demonstrates an RSpec test for the Organizations - Users - Roles Kata challenge at http://www.adomokos.com/2012/10/the-organizations-users-roles-kata.html
 
-The tests demonstrate a functining inheritance security model that works even if a user role is not specified on a leaf level organization.  They also demonstrate that a user is NOT in other roles for a particular organization.
+The tests demonstrate a functioning inheritance security model that works even if a user role is not specified on a leaf level organization.  They also demonstrate that a user is NOT in other roles for a particular organization.
 
 This test contains extensive test data to demonstrate the inheritance model at work.  Less data could have been used to simply demonstrate that the proper user role is processed, but it would not have shown inheritance at play in different scenarios.
